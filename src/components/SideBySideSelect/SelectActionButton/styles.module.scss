@@ -1,0 +1,13 @@
+.Button {
+  margin: 3px 0;
+  border: 1px solid #ccc;
+
+  i {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+}
+
+.Disabled {
+  cursor: not-allowed;
+}
