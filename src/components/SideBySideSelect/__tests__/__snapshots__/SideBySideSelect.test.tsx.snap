@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SideBySideSelect /> renders and match snapshot 1`] = `
+<div>
+  Field label
+  <div>
+    <div
+      className="undefined "
+      data-testid="left-side"
+      onClick={[Function]}
+    >
+      <div
+        data-testid="side-header"
+        style={Object {}}
+      >
+        all
+      </div>
+      <ul>
+        <li
+          className="undefined  "
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          option1
+        </li>
+        <li
+          className="undefined  "
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          option2
+        </li>
+        <li
+          className="undefined  "
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          option3
+        </li>
+        <li
+          className="undefined  "
+          onClick={[Function]}
+          onDoubleClick={[Function]}
+        >
+          option4
+        </li>
+      </ul>
+    </div>
+    <div>
+      <button
+        className="undefined disabled"
+        data-testid="moveToRightButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        &gt;
+      </button>
+      <button
+        className="undefined "
+        data-testid="moveAllToRightButton"
+        disabled={false}
+        onClick={[Function]}
+      >
+        &gt;&gt;
+      </button>
+      <button
+        className="undefined disabled"
+        data-testid="moveToLeftButton"
+        disabled={true}
+        onClick={[Function]}
+      >
+        &lt;
+      </button>
+      <button
+        className="undefined "
+        data-testid="moveAllToLeftButton"
+        disabled={false}
+        onClick={[Function]}
+      >
+        &lt;&lt;
+      </button>
+    </div>
+    <div
+      className="undefined "
+      data-testid="right-side"
+      onClick={[Function]}
+    >
+      <div
+        data-testid="side-header"
+        style={Object {}}
+      >
+        selected
+      </div>
+      <ul />
+    </div>
+  </div>
+</div>
+`;

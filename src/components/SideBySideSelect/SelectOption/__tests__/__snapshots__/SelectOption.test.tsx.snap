@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SelectOption /> renders option with  1`] = `
+<li
+  className="undefined  "
+  onClick={[MockFunction]}
+  onDoubleClick={[MockFunction]}
+>
+  option1
+</li>
+`;
+
+exports[`<SelectOption /> renders option without click events if options is disabled 1`] = `
+<li
+  className="undefined  disabled"
+  title="disabled"
+>
+  option1
+</li>
+`;
