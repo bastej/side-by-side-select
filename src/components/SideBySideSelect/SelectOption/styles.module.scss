@@ -1,0 +1,15 @@
+.SelectOption {
+  padding: 3px 12px;
+  cursor: pointer;
+  &:hover {
+    background-color: #eee;
+  }
+  &.Marked {
+    background-color: #eee;
+  }
+  &.Disabled {
+    cursor: not-allowed;
+    color: #aaa;
+    background-color: #ddd;
+  }
+}
